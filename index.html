@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <center><img
+      src="https://cdn.glitch.global/74893200-8bce-493c-b177-b0c573980cf3/guerilla-ai.png?v=1728511613096"
+      width="200"
+    /></center>
+
+    <title>Guerilla AI</title>
+    <p>
+      A Computer Vision assisted Investigation Inspired by Guerilla Girls'
+      Famous Campaign.
+    </p>
+    <img
+      src="https://cdn.glitch.global/74893200-8bce-493c-b177-b0c573980cf3/guerilla.png?v=1728518126619"
+      width="800"
+    />
+
+    <!--     import the hosted version of D3.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"
+      integrity="sha512-vc58qvvBdrDR4etbxMdlTt4GBQk1qjvyORR2nrsPsFPyrs+/u5c3+1Ct6upOgdZoIl7eq6k3a1UPDSNAQi/32A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>The Met</h1>
+
+    <h3>Modern Nudes in the Met by Year</h3>
+    <p>Findings:</p>
+    <ul>
+      <li>
+        Among all 347 modern artists who made at least one nude, only two were
+        female. (marked by light red dots)
+      </li>
+    </ul>
+    <div id="info-box"></div>
+
+    <div>
+      <svg id="svg-chart">
+        <g id="left-axis"></g>
+        <g id="bottom-axis"></g>
+      </svg>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+#svg-container {
+  width: 700px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.special-circle {
+  stroke: black;
+  stroke-width: 5;
+}
